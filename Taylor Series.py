@@ -11,7 +11,7 @@ def func(x):
 #Variables you can play with:
 a = 0.075 #the point around which the graphs will be shown
 graph_range = 0.05 #determines how zoomed in/out the graph is
-n = 4 #determines how much terms the Taylor Series have
+n = 4 #determines how much terms the Taylor Series have (can be only 1, 2, 3, or 4)
 
 #Variables you cannot play with:
 fx_original = [] #list for all values of f(x) for the original function
