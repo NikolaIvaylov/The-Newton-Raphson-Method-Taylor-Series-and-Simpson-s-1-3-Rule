@@ -17,6 +17,7 @@ x_values.append(x0) #add the starting value x0
 def func(x):
     return x**2 - a
 
+#find the first derivative of the original function:
 def first_derivative(x):
     return derivative(func, x, dx=1e-6)
 
