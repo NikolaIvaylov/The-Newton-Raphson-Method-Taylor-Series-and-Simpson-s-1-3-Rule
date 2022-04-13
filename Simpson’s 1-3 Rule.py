@@ -79,7 +79,7 @@ else:
 def output():
     #displaying the original function f(x):
     plt.figure(dpi=300) 
-    plt.title("Simpson's 1/3 Rule")
+    plt.title("Mast Forces")
     plt.xlabel("f(z)")
     plt.ylabel("z")
     plt.plot(force_values, z_axis, color="blue")
